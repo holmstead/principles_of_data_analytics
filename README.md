@@ -2,6 +2,11 @@
 
 This repository contains work for the Principle of Data Analytics module, ATU.
 
+Files:
+- penguins.ipynb
+- palmerpenguins_dataset.csv
+- .gitignore
+
 Git commit messages are stayled following git docs: 
 - https://github.com/git-guides/git-commit
 

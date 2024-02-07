@@ -5,8 +5,8 @@ This repository contains work for the Principle of Data Analytics module, ATU.
 
 |     | Files                            |
 |----:|----------------------------------|
-|    1| penguins.ipynb                   |
-|    2| palmerpenguins_dataset.csv       |
+|    1| palmerpenguins_dataset.csv       |
+|    2| penguins.ipynb                   |
 |    3| .gitignore                       | 
 
 

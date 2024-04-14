@@ -1,6 +1,9 @@
-# Principles of Data Analytics
+# An Exploration of the Palmer Penguins Dataset
 
-An analysis of the Palmer Penguins dataset.[^1.0] Horsts repo can be found here.[^1.05] A nicely formatted copy of the dataset can be found in UCIs machine learning archives [^1.1]
+This repository contains an analysis of the Palmer Penguins dataset.[^1.0] Horsts repo can be found here.[^1.05] A nicely formatted copy of the dataset can be found in UCIs machine learning archives [^1.1].
+
+Several popular data analysis libraries are used to provide insigths into the palmer penguin dataset. 
+
 
 
 ## Quickstart
@@ -28,19 +31,30 @@ Link generated using [Openincolab](https://openincolab.com/)
 
 ## Use of This Project
 
-This prepository useful a beginner exploratory data analysis project undertaken for the Principles of Data Analytics module 2024, at ATU.
+This project is useful as an intro to exploratory data analysis.
 
 ## Get Started
+
+Requirements:
 
 - Python 3.x
 - Jupyter Notebooks
 - pandas
 - matplotlib
 - seaborn
+- numpy
 
 ## Get Help
 
-holmstead@protonmail.com
+Matplotlib, Pandas, Seaborn, and NumPy all have comprehensive official user guide:
+
+- https://matplotlib.org/stable/users/index.html
+
+- https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html
+
+- https://numpy.org/doc/stable/user/index.html
+
+
 
 ## References
 
@@ -71,3 +85,5 @@ Markdown syntax examples:
 ## Author
 
 M. Holmes, 2024
+
+holmstead@protonmail.com

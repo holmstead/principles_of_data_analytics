@@ -2,7 +2,7 @@
 
 This repository contains an analysis of the Palmer Penguins dataset.[^1.0] Horsts repo can be found here.[^1.05] A nicely formatted copy of the dataset can be found in UCIs machine learning archives [^1.1].
 
-Several popular data analysis libraries are used to provide insigths into the palmer penguin dataset. 
+Several popular data-analysis libraries are used herein in an attempt to extract some [information](https://en.wikipedia.org/wiki/Information#) out of the dataset. To do so, we should approach the task with a question already in mind. Without a question, it may be difficult to extract any meaningful informatioon from a dataset. 
 
 
 
@@ -29,9 +29,11 @@ Link generated using [Openincolab](https://openincolab.com/)
 
    A file which tells git which files in the repository to ignore.
 
+
 ## Use of This Project
 
 This project is useful as an intro to exploratory data analysis.
+
 
 ## Get Started
 
@@ -46,14 +48,22 @@ Requirements:
 
 ## Get Help
 
-Matplotlib, Pandas, Seaborn, and NumPy all have comprehensive official user guide:
+Python libraries Matplotlib, Pandas, Seaborn, and NumPy all have comprehensive user guides in the official docs:
 
 - https://matplotlib.org/stable/users/index.html
 
 - https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html
 
+- https://seaborn.pydata.org/tutorial.html
+
 - https://numpy.org/doc/stable/user/index.html
 
+
+Juypter Notebooks and VSCode help can be foound herer:
+
+- https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb
+
+https://code.visualstudio.com/docs/introvideos/basics
 
 
 ## References

@@ -1,9 +1,12 @@
 # An Exploration of the Palmer Penguins Dataset
 
-This repository contains an analysis of the Palmer Penguins dataset.[^1.0] Horsts repo can be found here.[^1.05] A nicely formatted copy of the dataset can be found in UCIs machine learning archives [^1.1].
+This repository contains an analysis of the Palmer Penguins dataset.[1] Horsts repo can be found here.[2] A nicely formatted copy of the dataset can be found in [UCIs machine learning archives](https://archive.ics.uci.edu/dataset/53/iris).
 
 Several popular data-analysis libraries are used herein in an attempt to extract some [information](https://en.wikipedia.org/wiki/Information#) out of the dataset. To do so, we should approach the task with a question already in mind. Without a question, it may be difficult to extract any meaningful informatioon from a dataset. 
 
+The program was written in Python using [VSCode](https://code.visualstudio.com/), a free open-source Integrated Development Environment (IDE).
+
+Several libraries were used that are not part of the Python Standard Library and must be downloaded seperately. Instructions on how to install these libraries can be found in the Get Started section.
 
 
 ## Quickstart
@@ -29,17 +32,20 @@ There is an online repository called the Python Package Index (PyPI) which helps
 
 More information about the libraries used in this analysis can be found below:
 
-1. Matplotlib
-   - https://matplotlib.org/
+1. Pandas
+    - https://pandas.pydata.org/
 
 2. NumPy
-   - https://numpy.org/
+    - https://numpy.org/
 
-Horsts repo can be found here.[^1.05] 
-A nicely formatted copy of the dataset was found in UCIs machine learning archives [^1.1].
+3. Matplotlib
+    - https://matplotlib.org/
+
+4. Seaborn
+    - https://seaborn.pydata.org/
 
 
-## Contents
+## Repo Contents
 
 1. `palmerpenguins_dataset.csv`
    
@@ -49,11 +55,6 @@ A nicely formatted copy of the dataset was found in UCIs machine learning archiv
 
    A jupyter notebook containing an analysis of the palmer penguins dataset using pandas, matplotlib, and seaborn libraries.
 
-
-
-## Use of This Project
-
-This project is useful as an intro to exploratory data analysis.
 
 
 ## Get Started
@@ -76,7 +77,11 @@ Clone the repository:
 git clone https://github.com/holmstead/principle_of_data_analytics.git
 ```
 
-Once everything is installed and the repository cloned, you can run the notebook by opening the command line and typing the commands shown in the program descriptions below.
+Once everything is installed and the repository cloned, you can run the notebook by opening the command line and typing the following command:
+
+```
+jupyter-notebook penguins.ipynb
+```
 
 
 
@@ -104,12 +109,9 @@ https://code.visualstudio.com/docs/introvideos/basics
 
 ## References
 
-[^1] Horst, Allison Marie, Alison Presmanes Hill, and Kristen B Gorman. 2020. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://doi.org/10.5281/zenodo.3960218.
+[1] Horst, Allison Marie, Alison Presmanes Hill, and Kristen B Gorman. 2020. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://doi.org/10.5281/zenodo.3960218.
 
-[^1.05] https://github.com/allisonhorst/palmerpenguins
-
-[^1.1] https://archive.ics.uci.edu/dataset/53/iris
-
+[2] https://github.com/allisonhorst/palmerpenguins
 
 
 ## Author
